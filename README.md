@@ -1,3 +1,24 @@
+# 정리
+
+1. react-router-dom 설치
+```bash
+npm install react react-dom
+```
+
+2. tsconfig.app.json 아래 코드 추가
+```tsx
+{
+  "compilerOptions": {
+    "types": ["react", "react-dom"]
+  }
+}
+```
+
+이거 안하면, 절대 빨간줄 안없어짐.
+
+정리 끄읏.
+---
+
 # 📘 TypeScript Todo App 미션
 
 이 미션은 React와 TypeScript를 활용하여 간단한 Todo 애플리케이션을 구현하며, 컴포넌트와 상태에 타입을 정의하고 적용하는 실습입니다.
