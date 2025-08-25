@@ -1,4 +1,6 @@
 // App.js
+
+// 타입스크립트 변환하기 시작
 import { useState } from "react";
 
 import "./App.css";
